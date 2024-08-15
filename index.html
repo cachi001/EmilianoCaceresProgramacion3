@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico 1</title>
+</head>
+<body>
+    <header style="background-color: rgb(255, 99, 51); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+        <h1>PRÁCTICO PROGRAMACIÓN HTML - ENCABEZADO PRINCIPAL</h1>  
+        <nav>
+            <ul>
+                <li> <a href="#estructura">Ir a Estructura</a></li>
+                <li> <a href="#encabezado-propiedad-texto">Ir a Encabezado y Propiedad del Texto</a></li>
+                <li> <a href="#division-agrupacion-contenido">Ir a Division y Agrupacion del Contenido</a></li>
+                <li> <a href="#elemento-multimedia">Ir a Multimedia</a></li>
+                <li> <a href="#tabla">Ir a Tabla</a></li>
+                <li> <a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="estructura">
+            <article>
+                <div style="background-color: rgb(51, 255, 143); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>1. Estructura Básica del HTML </h1>
+                    <p>Este Documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título </p>
+                </div>
+            </article>
+        </section>
+        <section id="encabezado-propiedad-texto">
+            <article>
+                <div style="background-color: rgb(241, 255, 51); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>2. Encabezados y propiedades del Texto</h2>
+                    <h2>Encabezado 1</h2>
+                    <p><b>Esto es un texto en negrita</b></p>
+                    <h3>Encabezado 2</h3>
+                    <p><u>Esto es un texto subrayado</u></p>
+                    <h4>Encabezado 3</h4>
+                    <p><s>Esto es un texto tachado</s></p>
+                    <h5>Encabezado 4</h5>
+                    <p><em>Esto es un texto en cursiva</em></p>
+                    <h6>Encabezado 5</h6>
+                    <p><small>Esto es un texto mas pequeño</small></p>
+                </div>
+            </article>
+        </section>
+
+        <section id="division-agrupacion-contenido">
+            <article>
+                <div style="background-color: rgb(241, 77, 241); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>3. Divisiones y Agrupacion de Contenido</h1>
+                    <main>
+                        <section>
+                            <article>
+                                <h2>Seccion 1</h2>
+                                <p>Contenido de la primera sección agrupada en un div</p>
+                            </article>
+                        </section>
+                        <section>
+                            <article>
+                                <h2>Seccion 2</h2>
+                                <p>Contenido de la primera sección agrupada en un div</p>
+                            </article>
+                        </section>
+                    </main>
+                </div>
+            </article>
+        </section>
+        
+        <section id="enlace-lista">
+            <article>
+                <div style="background-color: rgb(60, 158, 255); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>4. Enlaces y Listas</h1>
+                    <p>Visita nuestro <a href="https://github.com/cachi001">sitio web</a> para más información </p>
+
+                    <p>Lista desordenada: </p>
+                    <ul>
+                        <li>Primer ítem de una lista desordenada</li>
+                        <li>Segundo ítem de una lista desordenada</li>
+                    </ul>
+                
+                    <p>Lista ordenada: </p>
+                    <ol>
+                        <li>Primer ítem de una lista ordenada</li>
+                        <li>Segundo ítem de una lista ordenada</li>
+                    </ol>   
+                </div>
+            </article>
+        </section>
+        
+        <section id="elemento-multimedia">
+            <article>
+                <div style="background-color: rgb(255, 25, 25); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>5. Elementos Multimedia</h1>
+                    <img src="assets/img/foto1.jpeg" alt="El Mejor del mundo" height="350" width="400">
+                    <video src="assets/video/video.mp4" controls></video>
+                    <audio src="assets/audio/audio.m4a" controls></audio>
+                </div>
+            </article>
+        </section>
+        
+        <section id="tabla">
+            <article>
+                <div style="background-color: rgb(255, 181, 84); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>6. Tablas</h2>
+                    <table style="border-collapse: collapse; width: 100%;">
+                        <style>
+                            th,td{
+                                border: 1px solid black;
+                                text-align: center;
+                                padding: 8px;
+                            }
+                        </style>
+                        <thead style="background-color: rgb(247, 247, 247); color: rgb(0, 0, 0)">
+                            <tr>
+                                <th>Columna 1</th>
+                                <th>Columna 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dato 1</td>
+                                <td>Dato 2</td>
+                            </tr>
+                            <tr>
+                                <td>Dato 3</td>
+                                <td>Dato 4</td>
+                            </tr>
+                        </tbody>
+                        <tfoot style="background-color: rgb(121, 121, 121); color: rgb(0, 0, 0)">
+                            <tr>
+                                <td>Pie 1</td>
+                                <td>Pie 2</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
+        </section>
+
+        <section id="formulario">
+            <article>
+                <div style="background-color: rgb(167, 255, 84); padding: 2em; margin: 6px; border: 1em black; border-radius: 10px;">
+                    <h2>7. Formularios</h2>
+                    <form action="POST" style="display: flex; justify-content: center; align-content: center;">
+                        <label for="nombre" style="padding: 1em;">Nombre: </label>
+                        <input type="text" name="nombre" required placeholder="Ingrese su Nombre">
+                        <label for="email" style="padding: 1em;">Email: </label>
+                        <input type="email" name="email" required placeholder="Ingrese su Email">
+                        <label for="mensaje" style="padding: 1em;">Mensaje: </label>
+                        <textarea name="mensaje" required placeholder="Ingrese su Mensaje"></textarea>
+                        <button type="submit" style="margin-left: 1em; padding: 1em; border-radius: 10px; border: 0.4px; background-color: black; color: white;">Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>
